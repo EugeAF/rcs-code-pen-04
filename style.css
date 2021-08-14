@@ -1,0 +1,37 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'arial';
+    font-size: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+thead > tr > th {
+    background-color: steelblue;
+    color: white;
+}
+
+table, th, td {
+    padding: 15px;
+}
+
+tbody tr th{
+    font-weight: normal;
+}
+
+.tbody--orange {
+    background-color: orange;
+}
+
+.tbody--yellow {
+    background-color: yellow;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 20%
+}
